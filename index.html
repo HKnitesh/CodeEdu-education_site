@@ -1,0 +1,1282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <title>CodeEdu</title>
+
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="shortcut icon" href="images/codeEdu.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Awesome font -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+
+
+    <!-- Start of nav bar -->
+    <section id="navbar" class="text-bg-dark">
+
+        <nav class="navbar navbar-expand-lg p-4 ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#"> <i class="fa-solid fa-laptop-code fa-lg"
+                        style="--fa-primary-color: #4916c0; --fa-primary-opacity: 0.8; --fa-secondary-color: #766f6f; --fa-secondary-opacity: 0.7;">
+                    </i><b> CodeEdu</b></a>
+
+                <button class="navbar-toggler ms-auto collaps" style="background-color: #807f7f9e;" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <!--START Category-->
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link active bg-black text-primary rounded-3 px-3 " href="#" role="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="bi bi-ui-radios-grid me-2"></i>Category
+
+                            </a>
+                            <ul class="dropdown-menu bg-black p-3 ">
+
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department
+                                        <i class="fa-solid fa-angle-right fa-sm me-2"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-item text-color-grey" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Web
+                                                Development <i class="fa-solid fa-angle-right fa-sm me-2"></i>
+
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+                                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                            class="fa-brands fa-css3-alt me-2 text-primary"></i>CSS</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                            class="fa-brands fa-square-js me-2 text-warning"></i>JavaScript</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                            class="fa-brands fa-angular me-2 text-danger"></i>Angular</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                            class="fa-brands fa-php me-2 text-success"></i>PHP</a></li>
+                                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                            class="fa-brands fa-html5 me-2 text-warning-emphasis"></i>HTML</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                            class="fa-brands fa-react me-2 text-info"></i>React</a></li>
+
+                                            </ul>
+
+                                        </li>
+
+                                        <li><a class="dropdown-item text-color-grey" href="#">Date Science</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Mobile Development</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Programming Language</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Software Testing</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Software Engineering</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Software Development
+                                                Tools</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Design</a></li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Marketing
+                                        <i class="fa-solid fa-angle-right fa-sm"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+                                        <li><a class="dropdown-item text-color-grey" href="#">Market Research</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Advertising</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Consumer Behavior</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Digital Marketing</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Marketing Ethics</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Social Media Marketing</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Public Relations</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Decision Science</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">SEO</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Business Marketing</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+
+                                <li><a class="dropdown-item text-color-grey" href="#">Music</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Lifestyle</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">IT & Software</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Personal Development</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Health & Fitness</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Teaching</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Social Science</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Math & Logic</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">more coming soon...</a></li>
+
+                            </ul>
+                        </li>
+                        <!--END Category-->
+
+
+                        <!--START DEMOS -->
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link active text-color-grey" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Demos <i class="fa-solid fa-angle-down fa-sm"></i>
+
+                            </a>
+                            <ul class="dropdown-menu bg-black p-3 ">
+                                <li><a class="dropdown-item text-color-grey" href="#">Home Default</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Home Education</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Home Academy</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Home Course</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Home University</a></li>
+                                <li><a class="dropdown-item text-color-grey me-4" href="#">Home Kindergarten</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Home Landing</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Home Tutor</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Home School</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Home Abroad</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Home Workshop</a></li>
+                            </ul>
+                        </li>
+                        <!--END DEMOS -->
+
+
+                        <!--START PAGES -->
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link active text-color-grey" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Pages <i class="fa-solid fa-angle-down fa-sm"></i>
+
+                            </a>
+                            <ul class="dropdown-menu bg-black p-3 ">
+
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Course <i
+                                            class="fa-solid fa-angle-right fa-sm"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-4 ">
+
+                                        <li><a class="dropdown-item text-color-grey" href="#">Course Categories</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Course Grid Classis</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Course Grid Minimal</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Course List Classic</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Course List Minimal</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Course Detail Classic</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Course Detail Minimal</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Course Detail Advance</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Course Detail Module</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Course Full Screen
+                                                Video</a></li>
+                                    </ul>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <i
+                                            class="fa-solid fa-angle-right fa-sm"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+
+                                        <li><a class="dropdown-item text-color-grey" href="#">About Us</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Contact Us</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Blog Grid</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Blog Masonry</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Blog Detail</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Pricing</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hero Banner
+                                        <i class="fa-solid fa-angle-right fa-sm"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+
+                                        <li><a class="dropdown-item text-color-grey" href="#">Hero Form</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Hero Vector</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Coming Soon...</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Instructor List</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Instructor Singer</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Become an Instructor</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Abroad Single</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Workshop Detail</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#">Event Detail</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop <i
+                                            class="fa-solid fa-angle-right fa-sm"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+
+                                        <li><a class="dropdown-item text-color-grey" href="#">Shop grid</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Product detail</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Cart</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Check out</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Empty Cart</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Wishlist</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Help <i
+                                            class="fa-solid fa-angle-right fa-sm me-2"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+
+                                        <li><a class="dropdown-item text-color-grey" href="#">Help Center</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Help Center Single</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">FAQs</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">Authentication <i
+                                            class="fa-solid fa-angle-right fa-sm"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+
+                                        <li><a class="dropdown-item text-color-grey" href="#">Sign In</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Sign Up</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Forget Password</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Form <i
+                                            class="fa-solid fa-angle-right fa-sm"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+
+                                        <li><a class="dropdown-item text-color-grey" href="#">Request a demo</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Book a Class</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Free Access</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Admission Form</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Specialty
+                                        <i class="fa-solid fa-angle-right fa-sm"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+
+                                        <li><a class="dropdown-item text-color-grey" href="#">Error 404</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Coming Soon</a></li>
+
+                                    </ul>
+
+                                </li>
+                            </ul>
+                        </li>
+                        <!--END PAGES -->
+
+                        <!--START ACCOUNTS-->
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link active text-color-grey" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Accounts <i class="fa-solid fa-angle-down fa-sm me-2"></i>
+
+                            </a>
+                            <ul class="dropdown-menu bg-black p-3 ">
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                            class="fa-solid fa-user-tie me-2"></i> Instructor <i
+                                            class="fa-solid fa-angle-right fa-sm"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="bi bi-grid-fill me-2"></i> Dashboard</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="fa-solid fa-basket-shopping me-2"></i> Courses</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="bi bi-file-earmark-plus-fill me-2"></i> Create Course</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="bi bi-file-check-fill me-2"></i> Course Added</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="bi bi-question-diamond me-2"></i> Quiz</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="bi bi-graph-up-arrow me-2"></i> Earning</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="fa-solid fa-user-graduate me-2"></i> Students</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="bi bi-cart-check me-2"></i> Order</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="bi bi-star-fill me-2"></i> Reviews</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="fa-solid fa-wallet me-2"></i> Payout</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                            class="fa-solid fa-user-graduate me-2"></i> Student <i
+                                            class="fa-solid fa-angle-right fa-sm"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="bi bi-grid-fill me-2"></i> Dashboard</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="bi bi-card-checklist me-2"></i> My Subscriptions</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="fa-solid fa-basket-shopping me-2"></i> Courses</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="fa-regular fa-file-lines me-2"></i> Course Resume</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="bi bi-question-diamond me-2"></i> Quiz</a></li>
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="bi bi-credit-card-2-front-fill me-2"></i> Payment info</a>
+                                        </li>
+
+                                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                                    class="bi bi-cart-check me-2"></i> Wishlist</a></li>
+
+                                    </ul>
+
+                                </li>
+                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                            class="bi bi-person-fill-gear me-2"></i> Admin</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                            class="fa-solid fa-user-pen me-2"></i> Edit Profile</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                            class="fa-sharp fa-solid fa-gear me-2"></i> Settings</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                            class="fa-solid fa-trash-can me-2"></i> Delete Profile</a></li>
+                                <hr class="dropdown-divider">
+
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item text-color-grey" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown
+                                        Levels <i class="fa-solid fa-angle-right fa-sm me-2"></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-item text-color-grey" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Dropdown (end) <i class="fa-solid fa-angle-right fa-sm me-2"></i>
+
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+
+                                                <li><a class="dropdown-item text-color-grey" href="#">Dropdown items</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-color-grey" href="#">Dropdown items</a>
+                                                </li>
+
+
+                                            </ul>
+
+                                        </li>
+
+                                        <li><a class="dropdown-item text-color-grey" href="#">Dropdown item</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="dropdown-item text-color-grey" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Dropdown (start) <i class="fa-solid fa-angle-right fa-sm me-2"></i>
+
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-submenu bg-black p-3 ">
+
+                                                <li><a class="dropdown-item text-color-grey" href="#">Dropdown items</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-color-grey" href="#">Dropdown items</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item text-color-grey" href="#">Dropdown item</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!--END ACCOUNTS-->
+
+                        <!-- Stating THREE DOTS MENU -->
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link active text-color-grey" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="bi bi-three-dots"></i>
+
+                            </a>
+                            <ul class="dropdown-menu bg-black p-3 ">
+                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                            class="text-info fa-fw bi bi-life-preserver me-2"></i> Support</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                            class="text-primary bi bi-card-text me-2"></i> Documentation</a></li>
+                                <li><a class="dropdown-item text-color-grey" href="#"><i
+                                            class="text-success bi bi-cloud-download-fill me-2"></i> Buy CodeEdu</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- End THREE DOTS MENU -->
+
+                    </ul>
+
+                    <!-- Starting Search bar-->
+                    <div class="nav-item">
+                        <form class="d-flex position-relative" role="search">
+                            <input class="form-control me-2 bg-dark" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <!-- <button class="btn btn-outline-success bg-transparent position-absolute end-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
+                            <button
+                                class="p-3 top-50 bg-transparent position-absolute end-0 translate-middle-y border-0 text-primary-hover text-reset"
+                                type="submit"><i class="fa-solid fa-magnifying-glass icon-hover"></i></button>
+                        </form>
+                    </div>
+                    <!-- End of search bar -->
+
+                </div>
+
+                <!--START User Profile-->
+                <div class="dropdown ms-1 ms-lg-0">
+                    <a class=" bg-black profile" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+
+                        <img class="profile-img rounded-circle" src="images/krishna_profile.jpg" alt="profile-pic">
+
+                    </a>
+                    <ul class="dropdown-menu bg-black p-3  dropdown-menu-end pt-3">
+
+
+
+                        <li><a class="dropdown-item text-color-grey" href="#"><i class="fa-solid fa-user me-2"></i>Edit
+                                Profile</a></li>
+                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                    class="fa-solid fa-gear me-2"></i>Account Settings</a>
+                        </li>
+                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                    class="bi bi-info-circle me-2"></i></i>Help</a></li>
+                        <li><a class="dropdown-item text-color-grey" href="#"><i
+                                    class="fa-solid fa-power-off me-2"></i>Sign Out</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--END User Profile-->
+            </div>
+        </nav>
+    </section>
+    <!-- End of nav bar -->
+
+    <main class="text-bg-dark">
+        <!-- Start of POSTER -->
+        <section id="poster" class="py-0 py-xl-5">
+            <div class="container">
+                <div class="row aline-items-center g-5">
+                    <div class="col col-lg-5 col-xl-6 col-12 position-relative text-center text-lg-start  poster-div ">
+                        <h1 class="display-6">Limitless learning at your fingertips</h1>
+                        <p class="my-4 lead">Online learning and teaching marketplace with 5K+ courses & 10M students.
+                            Taught by experts to help you acquire new
+                            skills.</p>
+                        <ul class="list-inline mb-4">
+                            <li class="list-inline-item poster-div-li"><i
+                                    class="bi bi-patch-check-fill text-white me-1"></i>Learn with experts</li>
+                            <li class="list-inline-item poster-div-li"><i
+                                    class="bi bi-patch-check-fill text-white me-1"></i>Get certificate</li>
+                            <li class="list-inline-item poster-div-li"><i
+                                    class="bi bi-patch-check-fill text-white me-1"></i>Get membership</li>
+                        </ul>
+
+                        <div class="d-flex aline-items-center justify-content py-2 ms-0">
+                            <a href="#" class="btn btn-outline-danger btn-lg me-2 mb-4 ">Get Started</a>
+                            <a href="https://www.youtube.com/embed/uV13Myyoee0" target="_blank"
+                                class="btn btn-primary-shadow btn-round mb-0 overflow-visible ms-4">
+                                <i class="fa-sharp fa-solid fa-circle-play"></i>
+                                <h4
+                                    class="fw-normal position-relative buttom-50  mb-0 ms-3 start-100 translate-middle-y">
+                                    Watch video</h4>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col col-lg-7 col-xl-6 col-12 position-relative text-center">
+                        <img src="images/07.png" alt="boy poster" class="img-fluid">
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+        <!-- End of POSTER -->
+
+
+        <!-- Start of Countdown -->
+        <section id="countdown" class="py-0 py-xl-5">
+            <div class="container ">
+                <div class="row g-4">
+                    <!-- countdown item 1-->
+                    <div class=" col-sm-6 col-xl-3">
+                        <div class="d-flex justify-content-center align-items-center cd-01 cd p-4">
+
+                            <span class="text-warning display-6 lh-1 mb-0"><i class="fas fa-tv"></i></span>
+                            <div class="mb-0 ms-4 ">
+                                <div class="d-flex">
+                                    <h3 class="mb-0 fw-bold">10K</h3>
+                                </div>
+                                <p class="mb-0">Online Course</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- countdown item 2-->
+                    <div class=" col-sm-6 col-xl-3">
+                        <div class="d-flex justify-content-center align-items-center cd-02 cd p-4">
+
+                            <span class="text-primary-emphasis display-6 lh-1 mb-0"><i
+                                    class="fas fa-user-tie"></i></span>
+                            <div class="mb-0 ms-4 ">
+                                <div class="d-flex">
+                                    <h3 class="mb-0 fw-bold">200+</h3>
+                                </div>
+                                <p class="mb-0">Expert Tutors</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- countdown item 3-->
+                    <div class=" col-sm-6 col-xl-3">
+                        <div class="d-flex justify-content-center align-items-center cd-03 cd p-4">
+
+                            <span class="text-success display-6 lh-1 mb-0"><i class="fas fa-user-graduate"></i></span>
+                            <div class="mb-0 ms-4 ">
+                                <div class="d-flex">
+                                    <h3 class="mb-0 fw-bold">60K+</h3>
+                                </div>
+                                <p class="mb-0">Online Students</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- countdown item 4-->
+                    <div class=" col-sm-6 col-xl-3">
+                        <div class="d-flex justify-content-center align-items-center cd-04 cd p-4">
+
+                            <span class="text-info display-5 lh-1 mb-0"><i class="bi bi-patch-check-fill"></i></span>
+                            <div class="mb-0 ms-4 ">
+                                <div class="d-flex">
+                                    <h3 class="mb-0 fw-bold">6K+</h3>
+                                </div>
+                                <p class="mb-0">Certified Course</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End of Countdown -->
+
+        <section id="courses">
+            <div class="container pb-5">
+                <!-- title section -->
+                <div class="row">
+                    <div class="col-lg-8 text-center mx-auto">
+                        <h2 class="fs-1">Most Popular Courses</h2>
+                        <p class="mb-0">Choose from hundreds of courses from specialist organizations</p>
+                    </div>
+                </div>
+
+                <!-- card start -->
+                <div class="row">
+                    <!-- HTML card -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3 pt-4">
+                        <div class="card shadow h-100 text-bg-dark">
+                            <!-- Image -->
+                            <img src="images/html5.jpg" class="card-img-top" alt="HTML image">
+                            <!-- Card body -->
+                            <div class="card-body pb-0">
+                                <!-- Badge and favorite -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <a href="#" class="badge bg-primary bg-opacity-10 ">All level</a>
+                                    <a href="#" class="text-bg-dark"><i class="far fa-heart"></i></a>
+                                </div>
+                                <!-- Title -->
+                                <h5 class="card-title fw-normal "><a href="#">Build Responsive Websites with HTML</a>
+                                </h5>
+                                <p class="mb-2 text-truncate-2">Far advanced setting say finished raillery. Offered
+                                    chiefly farther</p>
+                                <!-- Rating star -->
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-2 ">4.0/5.0</li>
+                                </ul>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer pt-0 pb-3">
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span class=""><i class="far fa-clock text-danger me-2"></i>15h 56m</span>
+                                    <span class=""><i class="fas fa-table text-warning me-2"></i>64 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- HTML card end... -->
+
+                    <!-- CSS3 card start -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3 pt-4">
+                        <div class="card shadow h-100 text-bg-dark">
+                            <!-- Image -->
+                            <img src="images/CSS3.jpg" class="card-img-top" alt="CSS3 image">
+                            <!-- Card body -->
+                            <div class="card-body pb-0">
+                                <!-- Badge and favorite -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <a href="#" class="badge bg-primary bg-opacity-10 text-success">Beginner</a>
+                                    <a href="#" class="text-bg-dark"><i class="far fa-heart"></i></a>
+                                </div>
+                                <!-- Title -->
+                                <h5 class="card-title fw-normal "><a href="#">Build Websites with CSS</a></h5>
+                                <p class="mb-2 text-truncate-2">Far advanced setting say finished raillery.Offered
+                                    chiefly farther</p>
+                                <!-- Rating star -->
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i
+                                            class="far fa-star-half-alt text-warning"></i></li>
+                                    <li class="list-inline-item ms-2 ">4.5/5.0</li>
+                                </ul>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer pt-0 pb-3">
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span class=""><i class="far fa-clock text-danger me-2"></i>36h 30m</span>
+                                    <span class=""><i class="fas fa-table text-warning me-2"></i>72 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- CSS3 card end... -->
+
+                    <!-- JS card start -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3 pt-4">
+                        <div class="card shadow h-100 text-bg-dark">
+                            <!-- Image -->
+                            <img src="images/JS.jpg" class="card-img-top" alt="JavaScript image">
+                            <!-- Card body -->
+                            <div class="card-body pb-0">
+                                <!-- Badge and favorite -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <a href="#" class="badge bg-primary bg-opacity-10">Inter-Mediate</a>
+                                    <a href="#" class="text-bg-dark"><i class="far fa-heart"></i></a>
+                                </div>
+                                <!-- Title -->
+                                <h5 class="card-title fw-normal "><a href="#">JavaScript: Full Understanding</a></h5>
+                                <p class="mb-2 text-truncate-2">Far advanced setting say finished raillery.Offered
+                                    chiefly farther</p>
+                                <!-- Rating star -->
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-2 ">5.0/5.0</li>
+                                </ul>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer pt-0 pb-3">
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span class=""><i class="far fa-clock text-danger me-2"></i>35h 30m</span>
+                                    <span class=""><i class="fas fa-table text-warning me-2"></i>92 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- JS card end... -->
+
+                    <!-- React card start -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3 pt-4">
+                        <div class="card shadow h-100 text-bg-dark">
+                            <!-- Image -->
+                            <img src="images/reactjs.jpg" class="card-img-top" alt="React image">
+                            <!-- Card body -->
+                            <div class="card-body pb-0">
+                                <!-- Badge and favorite -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <a href="#" class="badge bg-primary bg-opacity-10 text-success">Beginner</a>
+                                    <a href="#" class="text-bg-dark"><i class="far fa-heart"></i></a>
+                                </div>
+                                <!-- Title -->
+                                <h5 class="card-title fw-normal "><a href="#">Deep Learning with React-Native</a></h5>
+                                <p class="mb-2 text-truncate-2">Far advanced setting say finished raillery.Offered
+                                    chiefly farther</p>
+                                <!-- Rating star -->
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-2 ">4.0/5.0</li>
+                                </ul>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer pt-0 pb-3">
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span class=""><i class="far fa-clock text-danger me-2"></i>20h 35m</span>
+                                    <span class=""><i class="fas fa-table text-warning me-2"></i>102 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- React card end... -->
+
+                    <!-- Angular card start -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3 pt-4">
+                        <div class="card shadow h-100 text-bg-dark">
+                            <!-- Image -->
+                            <img src="images/ANGULAR.jpg" class="card-img-top" alt="Angular image">
+                            <!-- Card body -->
+                            <div class="card-body pb-0">
+                                <!-- Badge and favorite -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <a href="#"
+                                        class="badge bg-primary bg-opacity-10 text-info-emphasis">Intermediate</a>
+                                    <a href="#" class="text-bg-dark"><i class="far fa-heart"></i></a>
+                                </div>
+                                <!-- Title -->
+                                <h5 class="card-title fw-normal "><a href="#">Angular - The Complete Guider</a></h5>
+                                <p class="mb-2 text-truncate-2">Rooms oh fully taken by worse do.Points afraid but may
+                                    end.</p>
+                                <!-- Rating star -->
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-2 ">5.0/5.0</li>
+                                </ul>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer pt-0 pb-3">
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span class=""><i class="far fa-clock text-danger me-2"></i>10h 25m</span>
+                                    <span class=""><i class="fas fa-table text-warning me-2"></i>45 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Angular card end... -->
+
+                    <!-- Bootstrap card start -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3 pt-4">
+                        <div class="card shadow h-100 text-bg-dark">
+                            <!-- Image -->
+                            <img src="images/BootStarap.jpg" class="card-img-top" alt="Bootstrap image">
+                            <!-- Card body -->
+                            <div class="card-body pb-0">
+                                <!-- Badge and favorite -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <a href="#"
+                                        class="badge bg-primary bg-opacity-10 text-info-emphasis">Intermediate</a>
+                                    <a href="#" class="text-bg-dark"><i class="far fa-heart"></i></a>
+                                </div>
+                                <!-- Title -->
+                                <h5 class="card-title fw-normal "><a href="#">Bootstrap 5 from Scratch</a></h5>
+                                <p class="mb-2 text-truncate-2">Far advanced setting say finished raillery.Offered
+                                    chiefly farther.</p>
+                                <!-- Rating star -->
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i
+                                            class="fas fa-star-half-alt text-warning"></i></li>
+                                    <li class="list-inline-item ms-2 ">4.5/5.0</li>
+                                </ul>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer pt-0 pb-3">
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span class=""><i class="far fa-clock text-danger me-2"></i>28h 02m</span>
+                                    <span class=""><i class="fas fa-table text-warning me-2"></i>42 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Bootstrap card end... -->
+
+                    <!-- PHP card start -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3 pt-4">
+                        <div class="card shadow h-100 text-bg-dark">
+                            <!-- Image -->
+                            <img src="images/PHP.jpg" class="card-img-top" alt="PHP image">
+                            <!-- Card body -->
+                            <div class="card-body pb-0">
+                                <!-- Badge and favorite -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <a href="#" class="badge bg-primary bg-opacity-10 text-success">Beginner</a>
+                                    <a href="#" class="text-bg-dark"><i class="far fa-heart"></i></a>
+                                </div>
+                                <!-- Title -->
+                                <h5 class="card-title fw-normal "><a href="#">PHP with - CMS Project</a></h5>
+                                <p class="mb-2 text-truncate-2">Far advanced setting say finished raillery.Offered
+                                    chiefly farther</p>
+                                <!-- Rating star -->
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i
+                                            class="far fa-star-half-alt text-warning"></i></li>
+                                    <li class="list-inline-item ms-2 ">4.5/5.0</li>
+                                </ul>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer pt-0 pb-3">
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span class=""><i class="far fa-clock text-danger me-2"></i>18h 35m</span>
+                                    <span class=""><i class="fas fa-table text-warning me-2"></i>27 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- PHP card end... -->
+
+                    <!-- Python card start -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3 pt-4">
+                        <div class="card shadow h-100 text-bg-dark">
+                            <!-- Image -->
+                            <img src="images/PYTHON.jpg" class="card-img-top" alt="Python image">
+                            <!-- Card body -->
+                            <div class="card-body pb-0">
+                                <!-- Badge and favorite -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <a href="#" class="badge bg-primary bg-opacity-10 text-success">Beginner</a>
+                                    <a href="#" class="text-bg-dark"><i class="far fa-heart"></i></a>
+                                </div>
+                                <!-- Title -->
+                                <h5 class="card-title fw-normal "><a href="#">The Complete Web Development in python</a>
+                                </h5>
+                                <p class="mb-2 text-truncate-2">Mention Mr manners option if garrets enabled.</p>
+                                <!-- Rating star -->
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i
+                                            class="far fa-star-half-alt text-warning"></i></li>
+                                    <li class="list-inline-item ms-2 ">4.5/5.0</li>
+                                </ul>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer pt-0 pb-3">
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span class=""><i class="far fa-clock text-danger me-2"></i>12h 42m</span>
+                                    <span class=""><i class="fas fa-table text-warning me-2"></i>31 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Python card end... -->
+
+                    <!-- Photoshop card start -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3 pt-4">
+                        <div class="card shadow h-100 text-bg-dark">
+                            <!-- Image -->
+                            <img src="images/photoshop.jpg" class="card-img-top" alt="Photoshop image">
+                            <!-- Card body -->
+                            <div class="card-body pb-0">
+                                <!-- Badge and favorite -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <a href="#" class="badge bg-primary bg-opacity-10 text-success">Beginner</a>
+                                    <a href="#" class="text-bg-dark"><i class="far fa-heart"></i></a>
+                                </div>
+                                <!-- Title -->
+                                <h5 class="card-title fw-normal "><a href="#">Graphic Design Masterclass</a></h5>
+                                <p class="mb-2 text-truncate-2">Rooms oh fully taken by worse do.Points afraid but may
+                                    end.</p>
+                                <!-- Rating star -->
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i
+                                            class="far fa-star-half-alt text-warning"></i></li>
+                                    <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-2 ">3.5/5.0</li>
+                                </ul>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer pt-0 pb-3">
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span class=""><i class="far fa-clock text-danger me-2"></i>9h 52m</span>
+                                    <span class=""><i class="fas fa-table text-warning me-2"></i>68 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Photoshop card end... -->
+
+                    <!-- C++ card -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3 pt-4">
+                        <div class="card shadow h-100 text-bg-dark">
+                            <!-- Image -->
+                            <img src="images/c++.jpg" class="card-img-top" alt="C++ image">
+                            <!-- Card body -->
+                            <div class="card-body pb-0">
+                                <!-- Badge and favorite -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <a href="#" class="badge bg-primary bg-opacity-10 ">All level</a>
+                                    <a href="#" class="text-bg-dark"><i class="far fa-heart"></i></a>
+                                </div>
+                                <!-- Title -->
+                                <h5 class="card-title fw-normal "><a href="#">Become a Pro C++ programmer</a></h5>
+                                <p class="mb-2 text-truncate-2">Far advanced setting say finished raillery. Offered
+                                    chiefly farther</p>
+                                <!-- Rating star -->
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-2 ">5.0/5.0</li>
+                                </ul>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer pt-0 pb-3">
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span class=""><i class="far fa-clock text-danger me-2"></i>98h 25m</span>
+                                    <span class=""><i class="fas fa-table text-warning me-2"></i>158 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- C++ card end... -->
+
+                    <!-- JAVA card start -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3 pt-4">
+                        <div class="card shadow h-100 text-bg-dark">
+                            <!-- Image -->
+                            <img src="images/java.jpg" class="card-img-top" alt="JAVA image">
+                            <!-- Card body -->
+                            <div class="card-body pb-0">
+                                <!-- Badge and favorite -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <a href="#" class="badge bg-primary bg-opacity-10 text-success">Beginner</a>
+                                    <a href="#" class="text-bg-dark"><i class="far fa-heart"></i></a>
+                                </div>
+                                <!-- Title -->
+                                <h5 class="card-title fw-normal "><a href="#">Gain expertise in Java programming</a>
+                                </h5>
+                                <p class="mb-2 text-truncate-2">Rooms oh fully taken by worse do.Points afraid but may
+                                    end.</p>
+                                <!-- Rating star -->
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-2 ">4.0/5.0</li>
+                                </ul>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer pt-0 pb-3">
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span class=""><i class="far fa-clock text-danger me-2"></i>25h 52m</span>
+                                    <span class=""><i class="fas fa-table text-warning me-2"></i>102 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- JAVA card end... -->
+
+                    <!-- nodejs card -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3 pt-4">
+                        <div class="card shadow h-100 text-bg-dark">
+                            <!-- Image -->
+                            <img src="images/nodejs.png" class="card-img-top" alt="nodejs image">
+                            <!-- Card body -->
+                            <div class="card-body pb-0">
+                                <!-- Badge and favorite -->
+                                <div class="d-flex justify-content-between mb-2">
+                                    <a href="#" class="badge bg-primary bg-opacity-10 ">All level</a>
+                                    <a href="#" class="text-bg-dark"><i class="far fa-heart"></i></a>
+                                </div>
+                                <!-- Title -->
+                                <h5 class="card-title fw-normal "><a href="#">Learn the fundamentals of NodeJs</a></h5>
+                                <p class="mb-2 text-truncate-2">Far advanced setting say finished raillery. Offered
+                                    chiefly farther</p>
+                                <!-- Rating star -->
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item me-0 small"><i class="far fa-star text-warning"></i>
+                                    </li>
+                                    <li class="list-inline-item ms-2 ">4.0/5.0</li>
+                                </ul>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer pt-0 pb-3">
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span class=""><i class="far fa-clock text-danger me-2"></i>5h 36m</span>
+                                    <span class=""><i class="fas fa-table text-warning me-2"></i>25 lectures</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- nodejs card end... -->
+
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="pt-5 pb-5 text-bg-color">
+        <div class="container">
+            <div class="row">
+
+                <!-- first footer -->
+                <div class="col-lg-3 col-sm-12">
+                    <div class="d-flex">
+                        <a class="me-3 " href="index.html"> <img src="images/codeEdu.png" alt="logo"></a>
+                        <h2 class="me-0">CodeEdu</h2>
+                    </div>
+                    <p class="my-3">CodeEdu education theme, built specifically for the education centers which is
+                        dedicated to teaching and involve
+                        learners.
+                    </p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://github.com/HKnitesh" target="_blank"><i
+                                    class="fa-brands fa-github fa-2xl"></i>
+                            </a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/nitesh2023/"
+                                target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i>
+                            </a></li>
+                        <li class="list-inline-item"><a href="mailto:niteshchaurasiya1910@gmail.com" target="_blank"><i
+                                    class="fa fa-envelope fa-2xl"></i></a></li>
+                        <li class="list-inline-item"><a href="https://wa.me/918545065915" target="_blank"><i
+                                    class="fa-brands fa-whatsapp fa-2xl"></i></a></li>
+                    </ul>
+                </div>
+                <!-- second footer -->
+                <div class="col-lg-6">
+                    <div class="row">
+                        <!-- company -->
+                        <div class="col-6 col-md-4">
+                            <h4 class="mb-md-4">Company</h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item pb-2"><a href="#" class="footer-item">About Us</a></li>
+                                <li class="nav-item pb-2"><a href="#" class="footer-item">Contact Us</a></li>
+                                <li class="nav-item pb-2"><a href="#" class="footer-item">News and Blogs</a></li>
+                                <li class="nav-item pb-2"><a href="#" class="footer-item">Library</a></li>
+                                <li class="nav-item pb-2"><a href="#" class="footer-item">Career</a></li>
+                            </ul>
+                        </div>
+                        <!-- Community -->
+                        <div class="col-6 col-md-4">
+                            <h4 class="mb-md-4">Community</h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item pb-2"><a href="#" class="footer-item">Documentation</a></li>
+                                <li class="nav-item pb-2"><a href="#" class="footer-item">FAQ</a></li>
+                                <li class="nav-item pb-2"><a href="#" class="footer-item">Forms</a></li>
+                                <li class="nav-item pb-2"><a href="#" class="footer-item">Sitemap</a></li>
+                            </ul>
+                        </div>
+                        <!-- Teaching -->
+                        <div class="col-6 col-md-4">
+                            <h4 class="mb-md-4">Community</h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item pb-2"><a href="#" class="footer-item">Become a Teacher</a></li>
+                                <li class="nav-item pb-2"><a href="#" class="footer-item">How to guide</a></li>
+                                <li class="nav-item pb-2"><a href="#" class="footer-item">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Contact footer -->
+                <div class="col-lg-3 col-sm-12">
+                    <h4 class="mb-md-4">Contact</h4>
+                    <p>Call:
+                        <span class="ms-2 fw-light text-white">+91-8545065915</span>
+                    </p>
+                    <p class="mb-2">Email:
+                        <span class="ms-2 fw-light text-white">niteshchaurasiya1910@gmail.com</span>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
